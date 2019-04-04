@@ -24,21 +24,28 @@ class BoardsController < ApplicationController
   end
 
   def show
-    @comment = @board.comments.new
+    #@comment = @board.comments.new
+    @comment = Comment.new(board_id: @board.id)
     #binding.pry
   end
 
   def edit
+    @board.attributes = flash[:board] if flash[:board]
   end
 
   def update
-    @board.update(board_params)
-    redirect_to @board
+    if @board.update(board_params)
+      redirect_to @board
+    else
+      flash[:error_messages] = @board.errors.full_messages
+      flash[:board] = @board
+      redirect_back fallback_location: @board
+    end
   end
 
   def destroy
     #board = Board.find(params[:id])
-    @board.delete
+    @board.destroy
 
     redirect_to boards_path, flash: {notice: "「#{@board.title}」の掲示板が削除されました"}
   end
@@ -46,7 +53,7 @@ class BoardsController < ApplicationController
   private
 
   def board_params
-    params.require(:board).permit(:name, :title, :body)
+    params.require(:board).permit(:name, :title, :body, tag_ids: [])
   end
 
   def set_target_board
