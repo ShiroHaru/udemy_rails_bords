@@ -25,7 +25,8 @@ class BoardsController < ApplicationController
 
   def show
     #@comment = @board.comments.new
-    @comment = Comment.new(board_id: @board.id)
+    #@comment = Comment.new(board_id: @board.id)
+    @comment = flash[:comment].present? ? Comment.new(flash[:comment]) : Comment.new(board_id: @board.id)
     #binding.pry
   end
 
