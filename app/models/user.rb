@@ -18,12 +18,12 @@ class User < ApplicationRecord
 
   validates :name,
             presence: true,
-            uniquness: true,
+            uniqueness: true,
             length: {maximum: 16},
             format: {
-                with: /\A[a-z0-9]\Z/,
+                with: /\A[a-z0-9]+\z/,
                 message: 'は小文字英数字で入力してください'
             }
   validates :password,
-            lenght: {minimum: 8}
+            length: {minimum: 8}
 end
