@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="edebe300-ef53-4e48-8316-d82df2fbfa5e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/views/users/_form.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/users_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/users_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/application/_header.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/application/_header.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/home/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/home/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/users/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/users/new.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -63,78 +58,33 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/users/new.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/users/_form.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/application/_header.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/boards_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
+            <state relative-caret-position="342">
               <caret line="42" column="25" selection-start-line="42" selection-end-line="43" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+        <entry file="file://$PROJECT_DIR$/app/views/boards/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="306">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/users/_login_form.html.erb">
+        <entry file="file://$PROJECT_DIR$/Dockerfile">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/docker-compose.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+            <state relative-caret-position="136">
+              <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -167,6 +117,7 @@
       <find>@board.comments</find>
       <find>error_messages</find>
       <find>redirect_b</find>
+      <find>annotate</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/app/views/boards</dir>
@@ -220,13 +171,14 @@
         <option value="$PROJECT_DIR$/app/views/users/new.html.erb" />
         <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
+        <option value="$PROJECT_DIR$/docker-compose.yml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="1920" />
     <option name="y" value="23" />
-    <option name="width" value="960" />
+    <option name="width" value="1920" />
     <option name="height" value="1177" />
   </component>
   <component name="ProjectView">
@@ -234,8 +186,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -243,72 +193,12 @@
               <item name="udemy_rails_boards" type="b2602c69:ProjectViewProjectNode" />
               <item name="udemy_rails_boards" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="udemy_rails_boards" type="b2602c69:ProjectViewProjectNode" />
-              <item name="udemy_rails_boards" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="udemy_rails_boards" type="b2602c69:ProjectViewProjectNode" />
-              <item name="udemy_rails_boards" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="udemy_rails_boards" type="b2602c69:ProjectViewProjectNode" />
-              <item name="udemy_rails_boards" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="udemy_rails_boards" type="b2602c69:ProjectViewProjectNode" />
-              <item name="udemy_rails_boards" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="udemy_rails_boards" type="b2602c69:ProjectViewProjectNode" />
-              <item name="udemy_rails_boards" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="udemy_rails_boards" type="b2602c69:ProjectViewProjectNode" />
-              <item name="udemy_rails_boards" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="udemy_rails_boards" type="b2602c69:ProjectViewProjectNode" />
-              <item name="udemy_rails_boards" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="udemy_rails_boards" type="b2602c69:ProjectViewProjectNode" />
-              <item name="udemy_rails_boards" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="users" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="udemy_rails_boards" type="b2602c69:ProjectViewProjectNode" />
-              <item name="udemy_rails_boards" type="462c0819:PsiDirectoryNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="udemy_rails_boards" type="b2602c69:ProjectViewProjectNode" />
-              <item name="udemy_rails_boards" type="462c0819:PsiDirectoryNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
-              <item name="migrate" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -318,7 +208,7 @@
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -454,17 +344,20 @@
       <workItem from="1554212147403" duration="1495000" />
       <workItem from="1554221808829" duration="1212000" />
       <workItem from="1554445588128" duration="6158000" />
+      <workItem from="1556335342869" duration="228000" />
+      <workItem from="1557450207078" duration="279000" />
+      <workItem from="1557450716708" duration="4726000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76041000" />
+    <option name="totallyTimeSpent" value="83719000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="23" width="960" height="1177" extended-state="0" />
+    <frame x="1920" y="23" width="1920" height="1177" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2657952" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13631523" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -477,14 +370,14 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.23225807" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.23728813" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" visible="true" weight="0.21186441" />
       <window_info anchor="bottom" id="Database Console" order="13" weight="0.21700224" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" sideWeight="0.4971165" visible="true" weight="0.26143792" />
+      <window_info anchor="right" id="Database" order="3" sideWeight="0.4971165" weight="0.1891253" />
       <window_info anchor="right" content_ui="combo" id="Routes" order="4" sideWeight="0.49365628" weight="0.32747602" />
       <window_info anchor="right" x="0" y="0" width="189" height="889" id="Documentation" order="5" sideWeight="0.5028835" side_tool="true" weight="0.44195953" />
     </layout>
@@ -493,16 +386,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="das://c3b0a2d0-c232-41d7-8fa3-b182c6d056d8/schema/app_development/table/boards.sql" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/c3b0a2d0-c232-41d7-8fa3-b182c6d056d8/console.sql" />
-    <entry file="das://c3b0a2d0-c232-41d7-8fa3-b182c6d056d8/schema/app_development/table/comments" />
-    <entry file="file://$PROJECT_DIR$/db/migrate/20190402045951_set_null_comment.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20190402055707_not_null_comment_comments.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -612,13 +495,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="27" column="11" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile.lock">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3438">
@@ -702,13 +578,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/boards/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/boards/_board.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -739,31 +608,10 @@
     <entry file="file://$PROJECT_DIR$/app/controllers/home_controller.rb">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/users/_login_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/boards_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="42" column="25" selection-start-line="42" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/application/_header.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+    <entry file="das://e519b110-b068-445f-a809-27d76bf770bc/schema/app_development/table/users">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -784,6 +632,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/application/_header.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/user.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -791,17 +653,171 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://e519b110-b068-445f-a809-27d76bf770bc/schema/app_development/table/users">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+    <entry file="file://$PROJECT_DIR$/app/views/users/_login_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://RailsDependency/Board">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
-          <filtering enabled="true" />
+          <ID>RailsDependency</ID>
+          <OriginalElement>Board</OriginalElement>
+          <nodes>
+            <node x="179.15625" y="90.0">User</node>
+            <node x="0.0" y="180.0">BoardTagRelation</node>
+            <node x="225.03125" y="426.0">Comment</node>
+            <node x="59.15625" y="79.0">Tag</node>
+            <node x="138.5" y="0.0">ApplicationRecord</node>
+            <node x="75.875" y="303.0">Board</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="Tag" target="ApplicationRecord">
+              <point x="0.0" y="-25.5" />
+              <point x="108.65625" y="59.0" />
+              <point x="152.9" y="59.0" />
+              <point x="-57.599999999999994" y="14.5" />
+            </edge>
+            <edge source="Comment" target="ApplicationRecord">
+              <point x="32.25" y="-25.5" />
+              <point x="321.78125" y="401.0" />
+              <point x="365.375" y="401.0" />
+              <point x="365.375" y="49.0" />
+              <point x="268.1" y="49.0" />
+              <point x="57.60000000000002" y="14.5" />
+            </edge>
+            <edge source="Board" target="ApplicationRecord">
+              <point x="69.75" y="-36.5" />
+              <point x="285.125" y="278.0" />
+              <point x="290.375" y="278.0" />
+              <point x="290.375" y="59.0" />
+              <point x="239.3" y="59.0" />
+              <point x="28.80000000000001" y="14.5" />
+            </edge>
+            <edge source="User" target="ApplicationRecord">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="BoardTagRelation" target="Tag">
+              <point x="-69.75" y="-36.5" />
+              <point x="69.75" y="155.0" />
+              <point x="108.65625" y="155.0" />
+              <point x="0.0" y="25.5" />
+            </edge>
+            <edge source="BoardTagRelation" target="ApplicationRecord">
+              <point x="69.75" y="-36.5" />
+              <point x="209.25" y="155.0" />
+              <point x="168.65625" y="155.0" />
+              <point x="168.65625" y="59.0" />
+              <point x="181.7" y="59.0" />
+              <point x="-28.80000000000001" y="14.5" />
+            </edge>
+            <edge source="Board" target="BoardTagRelation">
+              <point x="-69.75" y="-36.5" />
+              <point x="145.625" y="278.0" />
+              <point x="139.5" y="278.0" />
+              <point x="0.0" y="36.5" />
+            </edge>
+            <edge source="Comment" target="Board">
+              <point x="-32.25" y="-25.5" />
+              <point x="257.28125" y="401.0" />
+              <point x="215.375" y="401.0" />
+              <point x="0.0" y="36.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="206.0" y="88.0" />
+          <SelectedNodes>
+            <node>Board</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Association fields</Category>
+            <Category>Migration fields</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/e519b110-b068-445f-a809-27d76bf770bc.SCHEMA:app_development">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>e519b110-b068-445f-a809-27d76bf770bc.SCHEMA:app_development</OriginalElement>
+          <nodes>
+            <node x="179.0" y="220.0">e519b110-b068-445f-a809-27d76bf770bc.TABLE:app_development.board_tag_relations</node>
+            <node x="221.75" y="22.0">e519b110-b068-445f-a809-27d76bf770bc.TABLE:app_development.tags</node>
+            <node x="268.0" y="413.0">e519b110-b068-445f-a809-27d76bf770bc.TABLE:app_development.ar_internal_metadata</node>
+            <node x="39.75" y="0.0">e519b110-b068-445f-a809-27d76bf770bc.TABLE:app_development.boards</node>
+            <node x="483.0" y="413.0">e519b110-b068-445f-a809-27d76bf770bc.TABLE:app_development.schema_migrations</node>
+            <node x="0.0" y="413.0">e519b110-b068-445f-a809-27d76bf770bc.TABLE:app_development.users</node>
+            <node x="0.0" y="209.0">e519b110-b068-445f-a809-27d76bf770bc.TABLE:app_development.comments</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="e519b110-b068-445f-a809-27d76bf770bc.TABLE:app_development.comments" target="e519b110-b068-445f-a809-27d76bf770bc.TABLE:app_development.boards">
+              <point x="0.0" y="-79.5" />
+              <point x="-39.75" y="79.5" />
+            </edge>
+            <edge source="e519b110-b068-445f-a809-27d76bf770bc.TABLE:app_development.board_tag_relations" target="e519b110-b068-445f-a809-27d76bf770bc.TABLE:app_development.boards">
+              <point x="-40.75" y="-68.5" />
+              <point x="219.75" y="184.0" />
+              <point x="159.0" y="184.0" />
+              <point x="39.75" y="79.5" />
+            </edge>
+            <edge source="e519b110-b068-445f-a809-27d76bf770bc.TABLE:app_development.board_tag_relations" target="e519b110-b068-445f-a809-27d76bf770bc.TABLE:app_development.tags">
+              <point x="40.75" y="-68.5" />
+              <point x="0.0" y="57.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.6866952789699571" x="556.0" y="498.0" />
+          <SelectedNodes>
+            <node>e519b110-b068-445f-a809-27d76bf770bc.TABLE:app_development.comments</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="476">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/boards_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="42" column="25" selection-start-line="42" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/boards/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
         </state>
       </provider>
     </entry>
